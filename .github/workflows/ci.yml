@@ -1,5 +1,7 @@
 name: CI
 
+env:
+  APP_NAME: excelifyjs
 on:
   push:
     branches:
@@ -23,6 +25,7 @@ jobs:
         run: cargo test --verbose
 
   build:
+    needs: test
     strategy:
       fail-fast: false
       matrix:
@@ -113,7 +116,7 @@ jobs:
         with:
           version: 10
           cache: true
-          
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
