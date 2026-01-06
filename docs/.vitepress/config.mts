@@ -32,13 +32,6 @@ export default defineConfig({
         ],
         collapsed: false,
       },
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Examples', link: '/examples' },
-      //   ],
-      //   collapsed: false,
-      // }
     ],
 
     socialLinks: [

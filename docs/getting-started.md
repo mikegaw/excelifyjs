@@ -106,6 +106,4 @@ sheet.write(0, 2, true);       // Boolean
 
 ## Next Steps
 
-- Check out the [API Reference](/api-examples) for detailed documentation
-- View more [examples in the repository](https://github.com/user/excelifyjs/tree/main/examples)
-- Run the [benchmark](https://github.com/user/excelifyjs/tree/main/benchmarks) to see performance metrics
+- Check out the [API Reference](/workbook) for detailed documentation
