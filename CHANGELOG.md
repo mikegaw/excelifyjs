@@ -1,5 +1,11 @@
 # excelifyjs
 
+## 0.1.6
+
+### Patch Changes
+
+- Use tag base publish
+
 ## 0.1.5
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 [package]
 name = "excelifyjs"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 description = "High-performance Rust-powered library for streaming, creating, and converting Excel .xlsx files in Node.js"
 license = "MIT"
