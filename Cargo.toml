@@ -8,6 +8,7 @@ repository = "https://github.com/user/excelifyjs"
 
 [lib]
 crate-type = ["cdylib"]
+path = "lib/lib.rs"
 
 [dependencies]
 napi = { version = "2", default-features = false, features = ["napi4"] }
