@@ -51,13 +51,6 @@
     "changeset:version": "changeset version && napi version",
     "changeset:publish": "changeset publish"
   },
-  "optionalDependencies": {
-    "excelifyjs-darwin-arm64": "0.1.4",
-    "excelifyjs-linux-arm64-gnu": "0.1.4",
-    "excelifyjs-linux-arm64-musl": "0.1.4",
-    "excelifyjs-linux-x64-musl": "0.1.4",
-    "excelifyjs-win32-arm64-msvc": "0.1.4"
-  },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
     "@napi-rs/cli": "^3.5.1",
