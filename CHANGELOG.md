@@ -1,5 +1,11 @@
 # excelifyjs
 
+## 0.1.4
+
+### Patch Changes
+
+- CI fixes
+
 ## 0.1.3
 
 ### Patch Changes
