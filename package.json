@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
-    "@napi-rs/cli": "^2.18.4",
+    "@napi-rs/cli": "^3.5.1",
     "vitepress": "2.0.0-alpha.15"
   }
 }
