@@ -62,15 +62,5 @@
     "excelifyjs-linux-x64-musl": "0.1.0",
     "excelifyjs-win32-arm64-msvc": "0.1.0",
     "excelifyjs-win32-x64-msvc": "0.1.0"
-  },
-  "dependencies": {
-    "@algolia/client-search": "5.46.2",
-    "algoliasearch": "0.1.0",
-    "focus-trap": "0.1.0",
-    "picomatch": "0.1.0",
-    "search-insights": "2.17.3",
-    "vite": "0.1.0",
-    "vue": "0.1.0",
-    "zod": "0.1.0"
   }
 }

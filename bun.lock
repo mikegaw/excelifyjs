@@ -4,8 +4,8 @@
   "workspaces": {
     "": {
       "devDependencies": {
-        "@napi-rs/cli": "^2.18.0",
-        "vitepress": "^2.0.0-alpha.15",
+        "@napi-rs/cli": "^2.18.4",
+        "vitepress": "2.0.0-alpha.15",
       },
       "optionalDependencies": {
         "excelifyjs-darwin-arm64": "0.1.0",

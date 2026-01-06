@@ -7,31 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@algolia/client-search':
-        specifier: 5.46.2
-        version: 5.46.2
-      algoliasearch:
-        specifier: 0.1.0
-        version: 5.46.2
-      focus-trap:
-        specifier: 0.1.0
-        version: 7.7.1
-      picomatch:
-        specifier: 0.1.0
-        version: 4.0.3
-      search-insights:
-        specifier: 2.17.3
-        version: 2.17.3
-      vite:
-        specifier: 0.1.0
-        version: 7.3.0
-      vue:
-        specifier: 0.1.0
-        version: 3.5.26
-      zod:
-        specifier: 0.1.0
-        version: 4.3.5
     devDependencies:
       '@napi-rs/cli':
         specifier: ^2.18.4
