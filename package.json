@@ -39,7 +39,6 @@
     "artifacts": "napi artifacts",
     "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
-    "prepublishOnly": "napi prepublish -t npm",
     "test": "cargo test",
     "example": "node example.mjs",
     "benchmark": "node benchmark.mjs",
@@ -56,5 +55,12 @@
     "@changesets/cli": "^2.29.8",
     "@napi-rs/cli": "^3.5.1",
     "vitepress": "2.0.0-alpha.15"
+  },
+  "optionalDependencies": {
+    "excelifyjs-linux-x64-musl": "0.1.2",
+    "excelifyjs-linux-arm64-gnu": "0.1.2",
+    "excelifyjs-linux-arm64-musl": "0.1.2",
+    "excelifyjs-darwin-arm64": "0.1.2",
+    "excelifyjs-win32-arm64-msvc": "0.1.2"
   }
 }
