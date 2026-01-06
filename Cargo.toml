@@ -1,0 +1,24 @@
+[package]
+name = "excelifyjs"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance Rust-powered library for streaming, creating, and converting Excel .xlsx files in Node.js"
+license = "MIT"
+repository = "https://github.com/user/excelifyjs"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "2", default-features = false, features = ["napi4"] }
+napi-derive = "2"
+quick-xml = { version = "0.31", features = ["serialize"] }
+zip = { version = "0.6", default-features = false, features = ["deflate"] }
+thiserror = "1"
+
+[build-dependencies]
+napi-build = "2"
+
+[profile.release]
+lto = true
+opt-level = 3

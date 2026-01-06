@@ -1,0 +1,27 @@
+# vitepress build output and cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+node_modules/
+
+# Claude files
+.claude
+CLAUDE.md
+
+# Library build output
+target/
+
+# napi-rs build artifacts
+*.node
+index.js
+index.d.ts
+
+# npm package artifacts
+npm/
+*.tgz
+
+# Generated Excel files
+*.xlsx
+
+# ISO/IEC 29500-1:2016 specifications
+specification/

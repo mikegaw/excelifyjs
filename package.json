@@ -1,0 +1,66 @@
+{
+  "name": "excelifyjs",
+  "version": "0.1.0",
+  "description": "High-performance Rust-powered library for streaming, creating, and converting Excel .xlsx files in Node.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/excelifyjs"
+  },
+  "license": "MIT",
+  "keywords": [
+    "excel",
+    "xlsx",
+    "spreadsheet",
+    "napi-rs",
+    "rust",
+    "streaming",
+    "performance"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "napi": {
+    "binaryName": "excelifyjs",
+    "targets": [
+        "x86_64-unknown-linux-musl",
+        "aarch64-unknown-linux-gnu",
+        "aarch64-unknown-linux-musl",
+        "aarch64-apple-darwin",
+        "aarch64-pc-windows-msvc"
+    ]
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "cargo test",
+    "example": "node example.mjs",
+    "benchmark": "node benchmark.mjs",
+    "universal": "napi universal",
+    "version": "napi version",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.0",
+    "vitepress": "^2.0.0-alpha.15"
+  },
+  "optionalDependencies": {
+    "excelifyjs-win32-x64-msvc": "0.1.0",
+    "excelifyjs-darwin-x64": "0.1.0",
+    "excelifyjs-darwin-arm64": "0.1.0",
+    "excelifyjs-linux-x64-gnu": "0.1.0",
+    "excelifyjs-linux-x64-musl": "0.1.0",
+    "excelifyjs-linux-arm64-gnu": "0.1.0",
+    "excelifyjs-linux-arm64-musl": "0.1.0",
+    "excelifyjs-win32-arm64-msvc": "0.1.0"
+  }
+}
