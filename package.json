@@ -55,12 +55,5 @@
     "@changesets/cli": "^2.29.8",
     "@napi-rs/cli": "^3.5.1",
     "vitepress": "2.0.0-alpha.15"
-  },
-  "optionalDependencies": {
-    "excelifyjs-linux-x64-musl": "0.1.2",
-    "excelifyjs-linux-arm64-gnu": "0.1.2",
-    "excelifyjs-linux-arm64-musl": "0.1.2",
-    "excelifyjs-darwin-arm64": "0.1.2",
-    "excelifyjs-win32-arm64-msvc": "0.1.2"
   }
 }
