@@ -25,11 +25,11 @@
   "napi": {
     "binaryName": "excelifyjs",
     "targets": [
-        "x86_64-unknown-linux-musl",
-        "aarch64-unknown-linux-gnu",
-        "aarch64-unknown-linux-musl",
-        "aarch64-apple-darwin",
-        "aarch64-pc-windows-msvc"
+      "x86_64-unknown-linux-musl",
+      "aarch64-unknown-linux-gnu",
+      "aarch64-unknown-linux-musl",
+      "aarch64-apple-darwin",
+      "aarch64-pc-windows-msvc"
     ]
   },
   "engines": {
@@ -50,17 +50,27 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@napi-rs/cli": "^2.18.0",
-    "vitepress": "^2.0.0-alpha.15"
+    "@napi-rs/cli": "^2.18.4",
+    "vitepress": "2.0.0-alpha.15"
   },
   "optionalDependencies": {
-    "excelifyjs-win32-x64-msvc": "0.1.0",
-    "excelifyjs-darwin-x64": "0.1.0",
     "excelifyjs-darwin-arm64": "0.1.0",
-    "excelifyjs-linux-x64-gnu": "0.1.0",
-    "excelifyjs-linux-x64-musl": "0.1.0",
+    "excelifyjs-darwin-x64": "0.1.0",
     "excelifyjs-linux-arm64-gnu": "0.1.0",
     "excelifyjs-linux-arm64-musl": "0.1.0",
-    "excelifyjs-win32-arm64-msvc": "0.1.0"
+    "excelifyjs-linux-x64-gnu": "0.1.0",
+    "excelifyjs-linux-x64-musl": "0.1.0",
+    "excelifyjs-win32-arm64-msvc": "0.1.0",
+    "excelifyjs-win32-x64-msvc": "0.1.0"
+  },
+  "dependencies": {
+    "@algolia/client-search": "5.46.2",
+    "algoliasearch": "0.1.0",
+    "focus-trap": "0.1.0",
+    "picomatch": "0.1.0",
+    "search-insights": "2.17.3",
+    "vite": "0.1.0",
+    "vue": "0.1.0",
+    "zod": "0.1.0"
   }
 }
