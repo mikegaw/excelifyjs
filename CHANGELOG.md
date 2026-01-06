@@ -1,5 +1,11 @@
 # excelifyjs
 
+## 0.1.7
+
+### Patch Changes
+
+- Revert ci
+
 ## 0.1.6
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "excelifyjs",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "High-performance Rust-powered library for streaming, creating, and converting Excel .xlsx files in Node.js",
   "main": "index.js",
   "types": "index.d.ts",
@@ -35,6 +35,10 @@
   "engines": {
     "node": ">= 16"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "artifacts": "napi artifacts",
     "build": "napi build --platform --release",
@@ -44,6 +48,7 @@
     "benchmark": "node benchmark.mjs",
     "universal": "napi universal",
     "version": "napi version",
+    "prepublishOnly": "napi prepublish -t npm",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
