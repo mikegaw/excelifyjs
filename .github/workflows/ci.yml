@@ -46,15 +46,15 @@ jobs:
     runs-on: ${{ matrix.settings.host }}
     steps:
       - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
       - name: Setup node
         uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: pnpm
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        with:
-          version: 10
       - name: Install
         uses: dtolnay/rust-toolchain@stable
         with:
@@ -108,17 +108,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org
-
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
           version: 10
           cache: true
+          
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
