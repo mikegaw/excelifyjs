@@ -1,6 +1,6 @@
 {
   "name": "excelifyjs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "High-performance Rust-powered library for streaming, creating, and converting Excel .xlsx files in Node.js",
   "main": "index.js",
   "types": "index.d.ts",
