@@ -47,9 +47,11 @@
     "version": "napi version",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "changeset": "changeset"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "@napi-rs/cli": "^2.18.4",
     "vitepress": "2.0.0-alpha.15"
   },
