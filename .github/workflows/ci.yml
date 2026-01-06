@@ -136,6 +136,10 @@ jobs:
         run: pnpm napi create-npm-dirs
       - name: Move artifacts
         run: pnpm artifacts
+      - name: Create napi-compatible tag
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          git tag "excelifyjs@${VERSION}" || true
       - name: Prepublish
         run: pnpm napi prepublish --skip-optional-publish
       - name: List packages
